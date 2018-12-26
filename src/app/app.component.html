@@ -1,11 +1,13 @@
 <div class="container">
   <header class="header">
-    <img src="../assets//img/logo.png" alt="" class="logo">
+    <img src="../assets//img/logo.png" alt="" class="logo" />
     <form action="#" class="search">
-      <input type="text" class="search_input" placeholder="Search Sneakers">
+      <input type="text" class="search_input" placeholder="Search Sneakers" />
       <button class="search_button">
         <svg class="search_icon">
-          <use xlink:href="../assets/img/sprite.svg#icon-magnifying-glass"></use>
+          <use
+            xlink:href="../assets/img/sprite.svg#icon-magnifying-glass"
+          ></use>
         </svg>
       </button>
     </form>
@@ -23,17 +25,159 @@
         <span class="user-nav_notification">21</span>
       </div>
       <div class="user-nav_user">
-        <img src="../assets/img/user-1.jpg" alt="User Photo" class="user-nav_user-photo">
-        <span class="user-nav_user-name">ZLUD</span>
+        <img
+          src="../assets/img/user-1.jpg"
+          alt="User Photo"
+          class="user-nav_user-photo"
+        />
+        <span class="user-nav_user-name">ZLUDcifer</span>
       </div>
     </nav>
   </header>
   <div class="content">
     <nav class="sidebar">
-      Sidebar Navigation
+      <ul class="side-nav">
+        <li class="side-nav_item side-nav_item--active">
+          <a href="#" class="side-nav_link">
+            <svg class="side-nav_icon">
+              <use xlink:href="../assets/img/sprite.svg#icon-home"></use>
+            </svg>
+            <span>Hotel </span>
+          </a>
+        </li>
+        <li class="side-nav_item">
+          <a href="#" class="side-nav_link">
+            <svg class="side-nav_icon">
+              <use xlink:href="../assets/img/sprite.svg#icon-aircraft"></use>
+            </svg>
+            <span>Flight </span>
+          </a>
+        </li>
+        <li class="side-nav_item">
+          <a href="#" class="side-nav_link">
+            <svg class="side-nav_icon">
+              <use xlink:href="../assets/img/sprite.svg#icon-key"></use></svg
+            ><span>Car Rental </span>
+          </a>
+        </li>
+        <li class="side-nav_item">
+          <a href="#" class="side-nav_link">
+            <svg class="side-nav_icon">
+              <use
+                xlink:href="../assets/img/sprite.svg#icon-location-pin"
+              ></use>
+            </svg>
+            <span>Loction </span>
+          </a>
+        </li>
+      </ul>
+      <div class="legal">&copy; 2018 by Trillo. All rights reserved.</div>
     </nav>
-    <main class="sneaker-view">
-      Sneaker-View
+
+    <main class="hotel-view">
+      <div class="gallery">
+        <figure class="gallery_item">
+          <img
+            src="../assets/img/hotel-1.jpg"
+            alt="Hotel 1"
+            class="gallery_photo"
+          />
+        </figure>
+        <figure class="gallery_item">
+          <img
+            src="../assets/img/hotel-2.jpg"
+            alt="Hotel 2"
+            class="gallery_photo"
+          />
+        </figure>
+        <figure class="gallery_item">
+          <img
+            src="../assets/img/hotel-3.jpg"
+            alt="Hotel 3"
+            class="gallery_photo"
+          />
+        </figure>
+      </div>
+      <div class="overview">
+        <h1 class="overview_heading">Hotel Las Palmas</h1>
+        <div class="overview_stars">
+          <svg class="overview_icon-star">
+            <use xlink:href="../assets/img/sprite.svg#icon-star"></use>
+          </svg>
+          <svg class="overview_icon-star">
+            <use xlink:href="../assets/img/sprite.svg#icon-star"></use>
+          </svg>
+          <svg class="overview_icon-star">
+            <use xlink:href="../assets/img/sprite.svg#icon-star"></use>
+          </svg>
+          <svg class="overview_icon-star">
+            <use xlink:href="../assets/img/sprite.svg#icon-star"></use>
+          </svg>
+          <svg class="overview_icon-star">
+            <use xlink:href="../assets/img/sprite.svg#icon-star"></use>
+          </svg>
+        </div>
+        <div class="overview_location">
+          <svg class="overview_icon-location">
+            <use xlink:href="../assets/img/sprite.svg#icon-location-pin"></use>
+          </svg>
+          <button class="btn-inline">Albuferia, Portugal</button>
+        </div>
+        <div class="overview_rating">
+          <div class="overview_rating-average">8.6</div>
+          <div class="overview_rating-count">429 votes</div>
+        </div>
+      </div>
+      <div class="detail">
+        <div class="description">
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+            velit veniam harum enim nobis consectetur expedita repudiandae,
+            omnis magni minima saepe quod,
+          </p>
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            rem beat, aeculpa deleniti aut maxime natus quia sint eaque.
+          </p>
+          <ul class="list">
+            <li class="list_item">Close to the beach</li>
+            <li class="list_item">Breakfast included</li>
+            <li class="list_item">Free Airport shuttle</li>
+            <li class="list_item">Free wifi</li>
+            <li class="list_item">Pets allowed</li>
+            <li class="list_item">We speak all Ching Chong languages</li>
+            <li class="list_item">Perfect for family</li>
+          </ul>
+          <div class="recommend">
+            <p class="recommend_count">
+              Lucif and 3 others friends recommend this hotel.
+            </p>
+            <div class="recommend_friends">
+              <img
+                src="../assets/img/user-1.jpg"
+                alt="Friend 1"
+                class="recommend_photo"
+              />
+              <img
+                src="../assets/img/user-2.jpg"
+                alt="Friend 2"
+                class="recommend_photo"
+              />
+              <img
+                src="../assets/img/user-3.jpg"
+                alt="Friend 3"
+                class="recommend_photo"
+              />
+              <img
+                src="../assets/img/user-4.jpg"
+                alt="Friend 4"
+                class="recommend_photo"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="user-reviews">user reviews</div>
+      </div>
     </main>
   </div>
 </div>
